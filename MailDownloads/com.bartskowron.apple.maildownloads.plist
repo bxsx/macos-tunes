@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>com.bartskowron.apple.maildownloads</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/bin/rm</string>
+			<string>-rf</string>
+			<string>$HOME/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/*</string>
+		</array>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Weekday</key>
+			<integer>0</integer>
+			<key>Hour</key>
+			<integer>21</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<key>Nice</key>
+		<integer>-10</integer>
+	</dict>
+</plist>
