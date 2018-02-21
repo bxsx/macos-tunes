@@ -21,5 +21,7 @@
 			<key>Minute</key>
 			<integer>0</integer>
 		</dict>
+		<key>Nice</key>
+		<integer>-10</integer>
 	</dict>
 </plist>
