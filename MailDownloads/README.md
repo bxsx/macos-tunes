@@ -10,6 +10,7 @@ This script can reduce a disk usage.
 ## Installation
 
 The `plist` file is handled via `launchd` that is a standard for Apple systems (and it's already in your system).
+
 Copy the `plist` file into `~/Library/LaunchAgents` and reboot.
 
 You can run it manually without rebooting too:
