@@ -8,7 +8,7 @@
 		<array>
 			<string>/bin/sh</string>
 			<string>-c</string>
-			<string>pgrep -x Mail >/dev/null &amp;&amp; find $HOME/Library/Containers/com.apple.mail/Data/Library/Mail\ Downloads -mindepth 1 -delete</string>
+			<string>pgrep -x Mail >/dev/null || find $HOME/Library/Containers/com.apple.mail/Data/Library/Mail\ Downloads -mindepth 1 -delete</string>
 		</array>
 		<key>StartCalendarInterval</key>
 		<dict>
