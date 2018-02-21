@@ -6,11 +6,9 @@
 		<string>com.bartskowron.apple.maildownloads</string>
 		<key>ProgramArguments</key>
 		<array>
-			<string>find</string>
-			<string>/Users/xxx/Library/Containers/com.apple.mail/Data/Library/Mail Downloads</string>
-			<string>-mindepth</string>
-			<string>1</string>
-			<string>-delete</string>
+			<string>/bin/sh</string>
+			<string>-c</string>
+			<string>pgrep -x Mail >/dev/null &amp;&amp; find /Users/xxx/Library/Containers/com.apple.mail/Data/Library/Mail Downloads\ -mindepth 1 -delete</string>
 		</array>
 		<key>StartCalendarInterval</key>
 		<dict>
