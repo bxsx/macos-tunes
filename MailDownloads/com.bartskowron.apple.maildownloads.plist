@@ -7,7 +7,7 @@
 		<key>ProgramArguments</key>
 		<array>
 			<string>find</string>
-			<string>/Users/xsx/Library/Containers/com.apple.mail/Data/Library/Mail Downloads</string>
+			<string>/Users/xxx/Library/Containers/com.apple.mail/Data/Library/Mail Downloads</string>
 			<string>-mindepth</string>
 			<string>1</string>
 			<string>-delete</string>
