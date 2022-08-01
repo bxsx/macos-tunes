@@ -3,9 +3,9 @@ macOS tweaks&amp;hacks
 
 ## Description
 
-Some scripts that I use in macOS (currently tested under macOS High Sierra).
-See `README.md` in specific sub directories.
+Dedicated macOS scripts I use in macOS.
+See `README.md` in specific subdirectories.
 
 ## Contact
 
-Bart Skowron <x@bartskowron.com>
+Bart Skowron <bxsx@bartskowron.com>
