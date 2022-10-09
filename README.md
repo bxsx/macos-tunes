@@ -8,4 +8,4 @@ See `README.md` in specific subdirectories.
 
 ## Contact
 
-Bart Skowron <bxsx@bartskowron.com>
+Bart Skowron <bart@bxsx.dev>
